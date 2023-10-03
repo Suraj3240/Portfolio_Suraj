@@ -1,96 +1,98 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import ProjectCard from './ProjectCards'
+import Particle from '../Particle'
+import drums from '../../Assets/Projects/Drum_beat.png'
+import dice from '../../Assets/Projects/Dice_roll.png'
+import quiz from '../../Assets/Projects/Quiz.png'
+import roam from '../../Assets/Projects/Roam_mates.png'
+import simon_game from '../../Assets/Projects/Simon_game.png'
+import events from '../../Assets/Projects/Eventeger.png'
 
-function Projects() {
+function Projects () {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className='project-section'>
       <Particle />
       <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+        <h1 className='project-heading'>
+          My Recent <strong className='purple'>Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{ color: 'white' }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+          <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={chatify}
+              imgPath={roam}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title='Roam Mates'
+              description='Roam Mates is a platform that connects like-minded travelers seeking adventure partners for their journeys. The users can fill in their details, preferences of their travel buddy, destination. Roam Mate will pair you with your travel buddy considering your preferences and the destinations. The frontend part is implemented with HTML, CSS, JavaScript, and Bootstrap.'
+              ghLink='https://github.com/Suraj3240/The-Trojan-Horse_Clash_of_Codes'
+              demoLink='https://the-trojan-horse-clash-of-codes-c2ztci323-suraj3240.vercel.app/'
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={events}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title='Eventeger'
+              description='Event hosting and booking platform for various events. The website consists of 3 modules: Admin, Organizers, and Customers. The customers can see and book tickets for the various events which are listed in thier city. The Organisers can put up a new events and Admins can modify any event which has been listed on the website. It also includes a talkback Chat-bot feature.'
+              ghLink='https://github.com/Suraj3240/Eventeger'
+              demoLink='https://surajeventeger.netlify.app/'
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={editor}
+              imgPath={quiz}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title='Quiz App'
+              description='Primarily a quiz app which also contains a personal information about me. The quiz app is a multiple choice question based quiz. The app is made using HTML, CSS, JavaScript, and Bootstrap. It contains 2 modes to play: Practice and Test. At the end it displays the final score of the user.'
+              ghLink='https://github.com/Suraj3240/Quiz-website'
+              demoLink='https://surajquiz.netlify.app/'
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <h1 className='project-heading'>
+            Mini <strong className='purple'>Projects </strong>
+          </h1>
+          <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={leaf}
+              imgPath={drums}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title='Drum Kit'
+              description="It's a drum kit which plays different sounds on pressing different keys. It's made using HTML, CSS, JavaScript, and Bootstrap."
+              ghLink='https://github.com/Suraj3240/Drum-Beats-website'
+              demoLink='https://drumbeats.vercel.app/'
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={suicide}
+              imgPath={simon_game}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title='Simon Game'
+              description="It's a memory game. It plays a sequence of sounds and the user has to repeat the sequence. It's made using HTML, CSS, JavaScript, and Bootstrap. When the user repeats the sequence correctly, the game plays the next sequence. If the user repeats the sequence incorrectly, the game ends."
+              ghLink='https://github.com/Suraj3240/Simon-Game'
+              demoLink='https://simon-game-ten-delta.vercel.app/'
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={emotion}
+              imgPath={dice}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title='Roll a Dice'
+              description="It's a dice rolling game. It rolls a pair of dice and displays the winner with the highest number."
+              ghLink='https://github.com/Suraj3240/Dice-Game-Website'
+              demoLink='https://diceroll-two.vercel.app/'
             />
           </Col>
         </Row>
       </Container>
     </Container>
-  );
+  )
 }
 
-export default Projects;
+export default Projects
