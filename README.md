@@ -1,12 +1,12 @@
 <h2 align="center">
   Portfolio Website - v1.0<br/>
-  <a href="https://suraj-portfolio-eight.vercel.app/" target="_blank">Suraj Portfolio 🔗</a>
+  <a href="https://www.suraj3240.tech/" target="_blank">suraj3240.tech 🔗</a>
 </h2>
 
 
 ## Built With
 
-My personal <a href="https://suraj-portfolio-eight.vercel.app/" target="_blank">portfolio</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal <a href="https://www.suraj3240.tech/" target="_blank">portfolio</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
