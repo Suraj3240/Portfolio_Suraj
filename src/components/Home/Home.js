@@ -26,15 +26,15 @@ function Home () {
               </h1>
 
               <div style={{ padding: '50px', textAlign: 'left' }}>
-                <p style={{ display: 'flex', alignItems: 'center' }}>
+                <p style={{ display: 'flex', alignItems:'center'}}>
                   <span
                     style={{
                       display: 'inline',
                       fontSize: '33px',
-                      marginRight: '10px'
+                      marginRight: '10px',
                     }}
                   >
-                    A
+                    A 
                   </span>
                   <Type style={{ marginLeft: '10px' }} />
                 </p>
