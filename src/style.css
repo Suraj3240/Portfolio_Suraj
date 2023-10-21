@@ -299,6 +299,7 @@ button:focus {
   color: #b562d6 !important;
 }
 
+
 @media (max-width: 767px) {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
