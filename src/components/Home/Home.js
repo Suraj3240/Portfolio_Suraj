@@ -29,8 +29,8 @@ function Home () {
                 <p style={{ display: 'flex', alignItems: 'center' }}>
                   <span
                     style={{
-                      display: 'inline',
                       fontSize: '33px',
+                      display: 'inline',
                       marginRight: '10px'
                     }}
                   >
