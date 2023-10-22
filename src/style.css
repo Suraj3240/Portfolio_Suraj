@@ -747,3 +747,19 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* typerwriter */
+.letter_A{
+  font-size: 33px;
+}
+.typewriter{
+  font-size: 17px;
+}
+@media (max-width: 767px) {
+  .letter_A{
+    font-size: 26px;
+  }
+  .typewriter{
+    font-size: 20px;
+  }
+}
