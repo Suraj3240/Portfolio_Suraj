@@ -28,15 +28,17 @@ function Home () {
               <div style={{ padding: '50px', textAlign: 'left' }}>
                 <p style={{ display: 'flex', alignItems: 'center' }}>
                   <span
+                    className='letter_A'
                     style={{
-                      fontSize: '33px',
                       display: 'inline',
                       marginRight: '10px'
                     }}
                   >
                     A
                   </span>
-                  <Type style={{ marginLeft: '10px' }} />
+                  <span className='typewriter'>
+                    <Type />
+                  </span>
                 </p>
               </div>
             </Col>
