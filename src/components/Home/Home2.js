@@ -38,7 +38,7 @@ function Home2 () {
                 <b className='purple'> Competitive Programmer </b>
               </i>
               &nbsp; who is passionate about solving problems and participating
-              in contests. I am a 2⭐ coder at{' '}
+              in contests. I am a 3⭐ coder at{' '}
               <i>
                 <b className='purple'> CodeChef.</b>
               </i>
