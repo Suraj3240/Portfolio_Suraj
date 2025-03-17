@@ -10,12 +10,12 @@ function AboutCard () {
           <p style={{ textAlign: 'justify' }}>
             Hi Everyone, I am <span className='purple'> Suraj Shinde </span>
             from <span className='purple'> Mumbai, India.</span>
-            <br /> I am a Third Year student pursuing B.Tech in Computer Science
+            <br /> I am a Final Year student pursuing B.Tech in Computer Science
             and Engineering (IoT, Cybersecurity, Blockchain Technology) from
             Dwarkadas J. Sanghvi College of Engineering, Mumbai .
             <br />
             I love solving problems and learning new things. I solve DSA
-            problems on Leetcode and I am also a 2 ⭐ coder on Codechef.
+            problems on Leetcode and I am also a 3 ⭐ coder on Codechef.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -28,7 +28,7 @@ function AboutCard () {
               <ImPointRight /> Watching Movies
             </li>
             <li className='about-activity'>
-              <ImPointRight /> Travelling
+              <ImPointRight /> Travelling (Bike Riding)
             </li>
           </ul>
 
